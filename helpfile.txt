@@ -1,0 +1,12 @@
+This module is given in the first chap of LDD3 
+
+1. In order to run this module, simply copy all .c and Makefile into some dir "hello_module"
+2. now in terminal run commnad "make"
+3. to insert the module u created "sudo insmod ./hello_moulde.ko" this file is created after make (NOTE: only root user can do this.)
+4. now to check the msg "tail -f /var/log/syslog" or "tail -f /var/log/messages" depending upon your kernel version.
+5. to remove the module "sudo rmmod hello_module"
+6. again check the exit msg according to .c code by cmd in 4.
+
+wait till next module come :)
+ 
+
